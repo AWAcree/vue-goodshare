@@ -17,7 +17,6 @@
     </span>
     <span
       class="counter-pinterest"
-      v-model="counter_pinterest"
       v-if="this.$props.has_counter"
     >
       {{ counter_pinterest }}

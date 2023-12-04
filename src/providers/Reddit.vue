@@ -17,7 +17,6 @@
     </span>
     <span
       class="counter-reddit"
-      v-model="counter_reddit"
       v-if="this.$props.has_counter"
     >
       {{ counter_reddit }}

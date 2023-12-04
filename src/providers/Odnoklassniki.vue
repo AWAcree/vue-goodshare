@@ -17,7 +17,6 @@
     </span>
     <span
       class="counter-odnoklassniki"
-      v-model="counter_odnoklassniki"
       v-if="this.$props.has_counter"
     >
       {{ counter_odnoklassniki }}

@@ -18,7 +18,6 @@
     </span>
     <span
       class="counter-tumblr"
-      v-model="counter_tumblr"
       v-if="this.$props.has_counter"
     >
       {{ counter_tumblr }}

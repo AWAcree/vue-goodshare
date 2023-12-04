@@ -18,7 +18,6 @@
     </span>
     <span
       class="counter-linkedin"
-      v-model="counter_linkedin"
       v-if="this.$props.has_counter"
     >
       {{ counter_linkedin }}

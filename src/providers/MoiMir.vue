@@ -19,7 +19,6 @@
     </span>
     <span
       class="counter-moimir"
-      v-model="counter_moimir"
       v-if="this.$props.has_counter"
     >
       {{ counter_moimir }}

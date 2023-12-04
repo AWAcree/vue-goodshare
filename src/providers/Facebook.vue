@@ -16,7 +16,6 @@
     </span>
     <span
       class="counter-facebook"
-      v-model="counter_facebook"
       v-if="this.$props.has_counter"
     >
       {{ counter_facebook }}
