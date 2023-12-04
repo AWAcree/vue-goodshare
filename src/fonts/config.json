@@ -16,7 +16,13 @@
       "uid": "b1ec8e90c2c85cf0035849980a3789b3",
       "css": "twitter",
       "code": 59393,
-      "src": "zocial"
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z",
+        "width": 512
+      },
+      "search": ["twitter"]
     },
     {
       "uid": "a7632b6db17256019e34ec72fb236be0",
