@@ -97,8 +97,9 @@ export default {
   speak: none;
   display: inline-block;
   text-decoration: inherit;
-  width: 1em;
+  width: auto!important;
   margin-right: 0.2em;
+  margin-top: 0.2em;
   text-align: center;
   font-variant: normal;
   text-transform: none;
@@ -109,13 +110,12 @@ export default {
 }
 
 .icon-twitter:before {
-  content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width=‘1200’ height=‘1227’ fill=‘none’ viewBox='0 0 1200 1227’%3E%3Cpath d='M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z' fill=‘white’/%3E%3C/svg%3E");
-;
+  content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 1200 1227'%3E%3Cpath d='M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z' fill='%23ffffff'/%3E%3C/svg%3E");
 }
 
 // Colors
 $twitter_main_color: rgb(0, 0, 0);
-$gradient_color: rgb(73, 73, 73);
+$gradient_color: rgb(116, 116, 116);
 $background_white_color: rgb(254, 254, 254);
 $text_white_color: rgb(254, 254, 254);
 
