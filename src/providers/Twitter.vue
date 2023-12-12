@@ -115,7 +115,7 @@ export default {
 
 // Colors
 $twitter_main_color: rgb(0, 0, 0);
-$gradient_color: rgb(73, 73, 73);
+$gradient_color: rgb(116, 116, 116);
 $background_white_color: rgb(254, 254, 254);
 $text_white_color: rgb(254, 254, 254);
 
